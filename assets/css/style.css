@@ -108,11 +108,11 @@ img {
 
 .search-field input {
 	border: none;
-	padding: 12.5px 15px;
+	padding: 9.5px 15px;
 }
 
 .search-cat-list .nice-select {
-	height: 46px;
+	height: 40px;
 	border-radius: 5px 0px 0px 5px;
 	font-size: 16px;
 	color: #6d6d6d;
@@ -130,7 +130,7 @@ img {
 }
 
 .search-submit {
-	font-size: 20px;
+	font-size: 16px;
 	background: #feb300;
 	color: #fff;
 	border: none;
@@ -162,7 +162,13 @@ img {
 
 .cart-content .cart-total {
 	font-size: 16px;
-	color: #fff;
+	color: #222;
+	background: #FEB300;
+	font-weight: 700;
+	padding: 0px 13px;
+	border-radius: 40px;
+	margin-bottom: 5px;
+	display: inline-block;
 }
 
 .cart-icon {
@@ -332,6 +338,25 @@ img {
 	min-height: 290px;
 	position: relative;
 }
+.single-product:hover {
+	border-color: #FEB300;
+}
+
+.onsale {
+	background: #F74B39;
+	text-transform: capitalize;
+	color: #fff;
+	font-weight: 700;
+	width: 50px;
+	min-height: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 6px;
+	left: 6px;
+	border-radius: 5px;
+	position: absolute;
+}
 
 .add-to-cart {
 	border: 1px solid #ccc;
@@ -346,7 +371,7 @@ img {
 	padding-right: 5px;
 }
 .add-to-cart:hover {
-	background: #005eb8;
+	background: #FEB300;
 	border-color: transparent;
 	color: #fff;
 }
