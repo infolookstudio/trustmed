@@ -2042,6 +2042,8 @@ span.followed i {
 	background: #d7d7d7;
 	padding: 22.5px 0px;
 	border: 2px dashed #a1a1a1;
+	cursor: pointer;
+	transition: .3s;
 }
 
 .order-policy label img {
@@ -2168,4 +2170,8 @@ span.followed i {
 
 .saler-info .message i {
     margin-right: 2px;
+}
+
+.order-policy label:hover {
+    background: #fff;
 }
